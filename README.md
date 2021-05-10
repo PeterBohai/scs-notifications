@@ -31,7 +31,7 @@ The scheduled event is specified using the following Cron expression:
 8/30 13-23 ? * * *
 
 ## Bug Reports and Improvements
-If you experience any bugs or see anything that can be improved or added, please feel free to [open an issue](https://github.com/PeterBohai/scs_notifications/issues) here or simply contact me through any of the methods below. Thanks in advance!
+If you experience any bugs or see anything that can be improved or added, please feel free to [open an issue](https://github.com/PeterBohai/scs-notifications/issues) here or simply contact me through any of the methods below. Thanks in advance!
 
 Email: peterbohai@gmail.com <br/>
 Linkedin: www.linkedin.com/in/peterbohai
