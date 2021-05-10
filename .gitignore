@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Environments
+.env
+
+# Python
+__pycache__/
+
+# PyCharm
+.idea
+
+# Other
+test_sendgrid.py
