@@ -68,7 +68,7 @@ def check_for_new_tweets(tweets):
         now_datetime_utc = datetime.utcnow().replace(tzinfo=tz.gettz('UTC'))
 
         time_frame_seconds = TIME_FRAME_MINUTES * one_minute
-        if (now_datetime_utc - tweet_datetime_utc).seconds <= time_frame_seconds:
+        if (now_datetime_utc - tweet_datetime_utc).total_seconds() <= time_frame_seconds:
             new_tweets.append(tweet)
             print('New Swag Code!')
 
