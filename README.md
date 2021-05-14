@@ -1,9 +1,8 @@
 # Swag Code Spoiler Notifications
 This is an **AWS Lambda** function that will check for new Swag Codes posted on the 
-[@swagcodespoiler](https://twitter.com/swagcodespoiler) Twitter account. The Lambda function is triggered via 
-**AWS CloudWatch** as a scheduled Event, and it runs every 30 minutes from 1pm GMT to 11pm GMT.
-Since Swag Codes are often only posted every hour at most, checking every 30 minutes is enough to guarantee that every new Tweet is 
-caught in a timely manner.
+[@swagcodespoiler](https://twitter.com/swagcodespoiler) Twitter account and email out a notification. The Lambda function is triggered via 
+**AWS CloudWatch** as a scheduled Event, and it runs every 15 minutes from 2pm GMT to 1am GMT.
+This interval guarantees that every new Tweet is caught in a relatively timely manner.
 
 ## Dependencies and Services
 #### Services and APIs
@@ -28,7 +27,7 @@ Please check the `requirements.txt` for specific dependencies and versions used.
 ## Other Details
 The scheduled event is specified using the following Cron expression:
 
-8/30 13-23 ? * * *
+8/15 14-1 ? * * *
 
 ## Bug Reports and Improvements
 If you experience any bugs or see anything that can be improved or added, please feel free to [open an issue](https://github.com/PeterBohai/scs-notifications/issues) here or simply contact me through any of the methods below. Thanks in advance!
