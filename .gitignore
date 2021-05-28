@@ -11,4 +11,4 @@ __pycache__/
 .idea
 
 # Other
-test_sendgrid.py
+test_*
